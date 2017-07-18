@@ -1,1 +1,1 @@
-Lp registros Sintecto
+Amp
