@@ -55,10 +55,13 @@ label {
   -o-transition: transform .3s ease-in-out;
   transition: transform .3s ease-in-out;
   max-width: 100%;
-  transform: scale(1.2);
+  transform: scale(0.5);
 }
 .lazyImg.b-loaded {
  transform: scale(1);
+ -webkit-transform: scale(1);
+ -moz-transform: scale(1);
+ -o-transform: scale(1);
 }
 .line {
   width: 100px;
@@ -90,9 +93,15 @@ label {
 @keyframes grow {
   from {
     transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -o-transform: scale(0);
   }
   to {
     transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
   }
 }
 
@@ -165,12 +174,6 @@ label {
   border-right: 1px solid #fff;
   margin: 0 20px;
 }
-.form-wrapper {
-
-}
-.form-content {
-
-}
 .form-inputs-groups {
   display: flex;
   flex-wrap: wrap;
@@ -223,16 +226,25 @@ label {
 .btn-sub::before{
   bottom: 9px;
   transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
 }
 .btn-sub::after{
   top: 9px;
   transform: scale(0);
+  -webkit-transform: scale(0);
+  -moz-transform: scale(0);
+  -o-transform: scale(0);
 }
 .btn-sub:hover {
   color: #FFD13B;
 }
 .btn-sub:hover::before, .btn-sub:hover::after {
   transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
 }
 
 /*Descripcion*/
@@ -252,7 +264,7 @@ label {
   font-size: 45px;
 }
 .tittle-description span {
-  color: #FFD13B;
+  color: #00467c;
   letter-spacing: 2px;
 }
 .paralax {
@@ -364,7 +376,7 @@ label {
 /*FOTOS*/
 .pictures-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 .pictures-container figure {
   max-width: 20%;
@@ -381,6 +393,7 @@ label {
 }
 .pictures-container figure figcaption {
   position: absolute;
+  padding: 0 5px;
   top: 50px;
   left: 10%;
   width: 80%;
@@ -392,6 +405,9 @@ label {
   color: #FFD13B;
   border-bottom: 2px solid #FFD13B;
   transform: translateY(300px);
+  -webkit-transform: translateY(300px);
+  -moz-transform: translateY(300px);
+  -o-transform: translateY(300px);
   -webkit-transition: all .6s ease-in-out;
   -moz-transition: all .6s ease-in-out;
   -o-transition: all .6s ease-in-out;
@@ -399,6 +415,10 @@ label {
 }
 .pictures-container figure:hover figcaption{
   transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
+
 }
 /*footer*/
 footer {
@@ -419,9 +439,10 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  -ms-transform: translate(-100vw, 0); /* IE 9 */
-  -webkit-transform: translate(-100vw, 0); /* Safari */
-  transform: translate(-100vw, 0);
+  -moz-transform: scale(0) translateX(-100vw); /* IE 9 */
+  -webkit-transform: scale(0) translateX(-100vw); /* Safari */
+  transform: scale(0) translateX(-100vw);
+  opacity: 0;
   background-color: #1a1a1a;
   background-image: url(../img/mapa_col-japon@2x.png);
   background-size: 60%;
@@ -433,9 +454,10 @@ footer {
   transition: all .6s ease-in-out;
 }
 .active-menu {
-  -ms-transform: translate(0, 0); /* IE 9 */
-  -webkit-transform: translate(0, 0); /* Safari */
-  transform: translate(0, 0);
+  -moz-transform: scale(1) translateX(0); /* IE 9 */
+  -webkit-transform: scale(1) translateX(0); /* Safari */
+  transform: scale(1) translateX(0);
+  opacity: 1;
 }
 .cta-form-header {
   padding: 20px 0;
@@ -463,6 +485,9 @@ footer {
 .close:hover {
   color: #fff;
   transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
 }
 @media  (max-width: 768px) {
   /*HERO*/
@@ -544,6 +569,9 @@ footer {
     background-position: bottom center;
   }
   /*Imagenes*/
+  .pictures-container {
+    flex-wrap: wrap;
+  }
   .pictures-container figure {
     max-width: 100%;
   }
