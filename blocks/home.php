@@ -154,7 +154,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 tittle-travel">
-				<h1>VIAJA AL JAPON <span class="japon"></span></h1>
+				<h1>VIAJA A <br>JAPON <span class="japon"></span></h1>
 				<span>CONÉCTATE CON EL MANAGEMENT ASIÁTICO</span>
 				<div class="line"></div>
 				<article>
@@ -177,5 +177,45 @@
 				<button type="submit" class="btn center-block btn-sub" id="burguer-button2">INSCRÍBETE</button>
 			</div>
 		</div>
+	</div>
+</section>
+
+<section class="tittle-description">
+	<h1>EXPERIENCIAS ANTERIORES</h1>
+	<div class="animated-line"></div>
+</section>
+<section class="pictures">
+	<div class="pictures-container">
+		<figure>
+			<img src="img/001.png" data-src="img/001.png" alt="Japon" class="lazyImg">	
+			<figcaption>
+				<p>Descripcion corta de la foto xxxxxxxxxx</p>
+			</figcaption>
+		</figure>
+		<figure>
+			<img src="img/002.png" data-src="img/002.png" alt="Japon" class="lazyImg">
+			<figcaption>
+				<p>Descripcion corta de la foto xxxxxxxxxx</p>
+			</figcaption>
+		</figure>
+		<figure>
+			<img src="img/003.png" data-src="img/003.png" alt="Japon" class="lazyImg">
+			<figcaption>
+				<p>Descripcion corta de la foto xxxxxxxxxx</p>
+			</figcaption>
+		</figure>
+		<figure>
+			<img src="img/004.jpg" data-src="img/004.jpg" alt="Japon" class="lazyImg">
+			<figcaption>
+				<p>Descripcion corta de la foto xxxxxxxxxx</p>
+			</figcaption>
+		</figure>
+		<figure>
+			<img src="img/005.jpg" data-src="img/005.jpg" alt="Japon" class="lazyImg">
+			<figcaption>
+				<p>Descripcion corta de la foto xxxxxxxxxx</p>
+			</figcaption>
+		</figure>
+		
 	</div>
 </section>
