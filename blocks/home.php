@@ -39,7 +39,7 @@
 			<p>
 				El Programa de Alta Gerencia y Dirección, Advanced Management Program, tiene como objetivo brindar al estudiante un conocimiento integral sobre <br/>las organizaciones, desarrollar habilidades, conocimientos y aptitudes, de tal forma que la persona esté preparada teórica y técnicamente<br/> para enfrentarse a la dirección de las empresas, en el ámbito estatal o privado.
 			</p>
-			<button type="submit" class="btn center-block btn-cta" id="burguer-button">
+			<button type="submit" class="btn center-block btn-sub" id="burguer-button">
 				MÁS INFORMACIÓN
 			</button>
 		</article>
@@ -151,7 +151,7 @@
 </section>
 
 <section class="travel">
-	<div class="container-fluid">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-4 tittle-travel">
 				<h1>VIAJA AL JAPON <span class="japon"></span></h1>
@@ -174,7 +174,7 @@
 			</div>
 			<div class="col-md-8">
 				<img src="img/mapa_col-japon.png" data-src="img/mapa_col-japon.png | img/mapa_col-japon@2x.png" alt="Japon" class="lazyImg center-block">
-				<button type="submit" class="btn center-block btn-cta" id="burguer-button2">INSCRÍBETE</button>
+				<button type="submit" class="btn center-block btn-sub" id="burguer-button2">INSCRÍBETE</button>
 			</div>
 		</div>
 	</div>
