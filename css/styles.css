@@ -329,6 +329,9 @@ label {
 .item h4 {
   color: #FFD13B;
 }
+.item p {
+  color: #e2e2e2;
+}
 /*perfil*/
 .profile {
   background-image: url(../img/perfil.jpg);

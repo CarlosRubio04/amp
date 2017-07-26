@@ -29,7 +29,7 @@
 	</div>
 </section>
 <section class="tittle-description">
-	<h1>AMP PARA CEO</h1>
+	<h1>AMP</h1>
 		<span>PROGRAMA DE ALTA GERENCIA</span>
 		<div class="animated-line"></div>
 	</section>
